@@ -4,7 +4,7 @@
           CLOUDSMITH_API_KEY: ${{ env.CLOUDSMITH_API_KEY }}
         run: |
           mvn clean deploy -B \
-            -DskipTests
+            -DskipTests \
             -DaltDeploymentRepository=cloudsmith-repo::default::https://${CLOUDSMITH_USER}:${CLOUDSMITH_API_KEY}@maven.cloudsmith.io/workspace-for-rajdeep/maven-test/
 
       - name: Wait for Package Synchronization
