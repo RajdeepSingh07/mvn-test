@@ -16,3 +16,11 @@
     </dependency>
   </dependencies>
 </project>
+
+<distributionManagement>
+  <repository>
+    <id>cloudsmith-repo</id>
+    <name>Cloudsmith Maven Repo</name>
+    <url>https://maven.cloudsmith.io/thrivent/maven-non-prod/</url>
+  </repository>
+</distributionManagement>
