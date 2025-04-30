@@ -15,12 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>cloudsmith-repo</id>
+      <name>Cloudsmith Maven Repo</name>
+      <url>https://maven.cloudsmith.io/workspace-for-rajdeep/ne/</url>
+    </repository>
+  </distributionManagement>
 </project>
 
-<distributionManagement>
-  <repository>
-    <id>cloudsmith-repo</id>
-    <name>Cloudsmith Maven Repo</name>
-    <url>https://maven.cloudsmith.io/workspace-for-rajdeep/ne/</url>
-  </repository>
-</distributionManagement>
+
