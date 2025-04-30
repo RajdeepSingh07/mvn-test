@@ -19,7 +19,7 @@
     <repository>
       <id>cloudsmith-repo</id>
       <name>Cloudsmith Maven Repo</name>
-      <url>https://maven.cloudsmith.io/workspace-for-rajdeep/ne/</url>
+      <url>https://maven.cloudsmith.io/workspace-for-rajdeep/maven-test/</url>
     </repository>
   </distributionManagement>
 </project>
