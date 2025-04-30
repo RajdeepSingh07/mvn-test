@@ -5,7 +5,7 @@
         run: |
           mvn clean deploy -B \
             -DskipTests
-            -DaltDeploymentRepository=cloudsmith-repo::default::https://${rajdeep-singh}:${95e54aaea50edd3f1841bda4fc3a1b3eaa6c545d}@maven.cloudsmith.io/workspace-for-rajdeep/ne/
+            -DaltDeploymentRepository=cloudsmith-repo::default::https://${CLOUDSMITH_USER}:${CLOUDSMITH_API_KEY}@maven.cloudsmith.io/workspace-for-rajdeep/maven-test/
 
       - name: Wait for Package Synchronization
         id: wait-for-package-sync
